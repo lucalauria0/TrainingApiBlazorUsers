@@ -1,0 +1,173 @@
+﻿@page "/aggiungi"
+
+@using RisorseCondivise;
+@using TaskFormUtenteGenericoBlazorApp;
+
+<PageTitle>Aggiungi</PageTitle>
+
+<h1>Aggiungi</h1>
+
+<form>
+
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" class="form-control" @bind="nome" />
+    </div>
+
+    <div class="form-group">
+        <label for="cognome">Cognome:</label>
+        <input type="text" id="cognome" class="form-control" @bind="cognome" />
+    </div>
+
+    <div class="form-group">
+        <label for="codiceFiscale">Codice Fiscale:</label>
+        <input type="text" id="codiceFiscale" class="form-control" @bind="codiceFiscale" />
+    </div>
+
+    <div class="form-group">
+        <label for="eta">Età:</label>
+        <input type="text" id="eta" class="form-control" @bind="eta" />
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="form-control" @bind="email" />
+    </div>
+    <button type="button" class="btn btn-primary" @onclick="AddUser">Aggiungi</button>
+</form>
+
+<h1>Ricerca</h1>
+
+<div class="form-group">
+    <input type="text" class="form-control" placeholder="Cerca per nome, cognome o età..." @bind="term" />
+    <button type="button" class="btn btn-primary" @onclick="Ricerca">Cerca</button>
+</div>
+
+
+@if (res != null)
+{
+    <ul>
+        @foreach (var persona in res)
+        {
+            <li>@persona.nome, @persona.cognome, @persona.codiceFiscale, @persona.email, @persona.eta anni</li>
+        }
+    </ul>
+}
+else
+{
+    <ul>
+        <li>Risultati appariranno qui...</li>
+    </ul>
+} 
+
+<div class="form-group" id="101">
+    <input type="text" class="form-control" placeholder="Nome..." @bind="nome" />
+    <input type="text" class="form-control" placeholder="Cognome..." @bind="cognome" />
+    <input type="text" class="form-control" placeholder="Codice Fiscale..." @bind="codiceFiscale" />
+    <input type="text" class="form-control" placeholder="Età..." @bind="eta" />
+    <input type="text" class="form-control" placeholder="Email..." @bind="email" />
+    <button type="button" class="btn btn-outline-secondary" @onclick="Modifica">Modifica</button>
+</div>
+
+
+@code 
+{
+    public string nome;
+    public string cognome;
+    public string codiceFiscale;
+    public int eta;
+    public string email;
+
+    public string term;
+    public List<Persona> risultatiRicerca = new List<Persona>();
+    public List<Persona> res = null;
+
+    LogService log = null;
+    ClientManager ClientService = null;
+    Errore er = null;
+
+    public Aggiungi()
+    {
+        var configuration = new ConfigurationBuilder().SetBasePath(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location)).AddJsonFile("appsettings.json").Build();
+        log = new LogService(configuration);
+        ClientService = new ClientManager(@"https://localhost:7243", log);
+
+    }
+
+    public async Task AddUser()
+    {
+        Persona p = new Persona(nome, cognome, codiceFiscale, eta, email);
+        Errore er = await ClientService.InsertPersona(p);
+        if (er != null)
+        {
+
+        }
+    }
+
+    public async Task Modifica()
+    {
+        Persona p = new Persona(nome, cognome, codiceFiscale, eta, email);
+        Errore er = await ClientService.UpdatePersona(p);
+        if (er != null)
+        {
+
+        }
+    }
+
+    public async Task Ricerca()
+    {
+        try
+        {
+            Errore er = null;
+            Dictionary<string, List<object>> attributi = new Dictionary<string, List<object>>();
+
+            if (term != null)
+            {
+                res = new List<Persona>();
+                if (term.Contains('@'))
+                {
+                    attributi.Add("IndirizzoEmail", new List<object>() { term });
+                    (er, risultatiRicerca) = await ClientService.GetPersone(attributi);
+                    res.AddRange(risultatiRicerca);
+                    return;
+                }
+                if (term.Any(char.IsDigit))
+                {
+                    attributi.Add("Eta", new List<object>() { Convert.ToInt32(term) });
+                    (er, risultatiRicerca) = await ClientService.GetPersone(attributi);
+                    res.AddRange(risultatiRicerca);
+                    return;
+                }
+                attributi.Clear();
+                attributi.Add("Nome", new List<object>() { term });
+                (er, risultatiRicerca) = await ClientService.GetPersone(attributi);
+                res.AddRange(risultatiRicerca);
+
+                attributi.Clear();
+                attributi.Add("Cognome", new List<object>() { term });
+                (er, risultatiRicerca) = await ClientService.GetPersone(attributi);
+                res.AddRange(risultatiRicerca);
+
+                attributi.Clear();
+                attributi.Add("CodiceFiscale", new List<object>() { term });
+                (er, risultatiRicerca) = await ClientService.GetPersone(attributi);
+                res.AddRange(risultatiRicerca);
+
+                if (res.Count > 0)
+                {
+                    var persona = res[0]; 
+                    nome = persona.nome;
+                    cognome = persona.cognome;
+                    codiceFiscale = persona.codiceFiscale;
+                    eta = persona.eta;
+                    email = persona.email;
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Errore er = new Errore(e);
+            return;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+﻿@page "/Lista"
+
+@using TaskFormUtenteGenericoBlazorApp.Data.Services;
+@using RisorseCondivise;
+
+@if (Persone == null)
+{
+    <p><em>Loading...</em></p>
+} 
+else {
+
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Codice Fiscale</th>
+                <th>Età</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Persone)
+            {
+                <tr>
+                    <td>@p.nome</td>
+                    <td>@p.cognome</td>
+                    <td>@p.codiceFiscale</td>
+                    <td>@p.eta</td>
+                    <td>@p.email</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    LogService log = null;
+    ClientManager ClientService = null;
+    List<Persona> Persone = null;
+    Errore er = null;
+
+    public Lista()
+    {
+        var configuration = new ConfigurationBuilder().SetBasePath(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location)).AddJsonFile("appsettings.json").Build();
+        log = new LogService(configuration);
+        ClientService = new ClientManager(@"https://localhost:7243", log);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        (er, Persone) = await ClientService.GetPersone(new Dictionary<string, List<object>>());
+        if (er != null)
+        {
+            
+        }
+    }
+
+
+    //public List<Persona> Persone { get; set; } = new List<Persona>() { new Persona("Luca", "Lauria", "NDFSDJDF", 23, "luca.lauria@alten.it") };
+    //Errore er = null;
+    //ClientManager api;
+    //LogService log;
+
+    //public Lista()
+    //{
+    //    var configuration = new ConfigurationBuilder().SetBasePath(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location)).AddJsonFile("appsettings.json").Build();
+    //    log = new LogService(configuration);
+    //    api = new ClientManager(@"https://localhost:7291", log);
+    //}
+
+    //protected override void OnInitialized()
+    //{
+    //    PersoneChanged();
+    //}
+
+    //public async void PersoneChanged()
+    //{
+    //    try
+    //    {
+    //        Thread.Sleep(1000);
+    //        (er, Persone) = await api.GetPersone(new Dictionary<string, List<object>>());
+    //        StateHasChanged();
+    //    }
+    //    catch (Exception e)
+    //    {
+    //        er = new Errore(e);
+    //    }
+    //}
+
+}
