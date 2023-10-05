@@ -1,0 +1,41 @@
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\appsettings.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Server Blazor App.staticwebassets.runtime.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Server Blazor App.exe
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Server Blazor App.deps.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Server Blazor App.runtimeconfig.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Server Blazor App.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Server Blazor App.pdb
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Serilog.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\RisorseCondivise.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\bin\Debug\net7.0\RisorseCondivise.pdb
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.csproj.AssemblyReference.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.AssemblyInfoInputs.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.AssemblyInfo.cs
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.csproj.CoreCompileInputs.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.RazorAssemblyInfo.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.RazorAssemblyInfo.cs
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\staticwebassets\msbuild.Server Blazor App.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\staticwebassets\msbuild.build.Server Blazor App.props
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Server Blazor App.props
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Server Blazor App.props
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\scopedcss\bundle\Server Blazor App.styles.css
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\scopedcss\projectbundle\Server Blazor App.bundle.scp.css
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.csproj.CopyComplete
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\refint\Server Blazor App.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.pdb
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\Server Blazor App.genruntimeconfig.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\#Training Api & Blazor Users\obj\Debug\net7.0\ref\Server Blazor App.dll

@@ -1,9 +1,9 @@
 ﻿
 using System.Net.Http.Json;
 using Newtonsoft.Json;
-using RisorseCondivise;
+using Shared_Resources;
 
-namespace TaskFormUtenteGenericoBlazorApp.Data.Services
+namespace _Training_Api___Blazor_Users
 {
     public class ClientManager
     {

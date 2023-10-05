@@ -5,10 +5,10 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using RisorseCondivise;
+using Shared_Resources;
 using System.Net.Http.Json;
 
-namespace TaskFormUtenteGenericoBlazorApp.Data
+namespace _Training_Api___Blazor_Users
 {
     public class Global
     {

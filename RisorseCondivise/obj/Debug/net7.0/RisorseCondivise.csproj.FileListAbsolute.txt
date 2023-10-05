@@ -1,0 +1,12 @@
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\bin\Debug\net7.0\RisorseCondivise.deps.json
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\bin\Debug\net7.0\RisorseCondivise.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\bin\Debug\net7.0\RisorseCondivise.pdb
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\RisorseCondivise.csproj.AssemblyReference.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\RisorseCondivise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\RisorseCondivise.AssemblyInfoInputs.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\RisorseCondivise.AssemblyInfo.cs
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\RisorseCondivise.csproj.CoreCompileInputs.cache
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\RisorseCondivise.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\refint\RisorseCondivise.dll
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\RisorseCondivise.pdb
+C:\Users\llauria\OneDrive - ALTEN Group\#Course\10.23\#Training Api & Blazor Users\RisorseCondivise\obj\Debug\net7.0\ref\RisorseCondivise.dll
